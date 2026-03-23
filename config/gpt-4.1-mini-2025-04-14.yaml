@@ -1,0 +1,5 @@
+# A lightweight version of GPT-4.1
+model: gpt-4.1-mini-2025-04-14
+api: 2025-01-01-preview
+temperature: 0.0
+max_tokens: 16000

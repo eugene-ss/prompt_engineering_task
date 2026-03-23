@@ -1,0 +1,2685 @@
+{
+  "total_rows": 300,
+  "golden_error_row_count": 180,
+  "golden_slice": "121-300",
+  "row_errors": [
+    {
+      "row_index": 121,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "121",
+          "reason": "Duplicate record: this row matches row ID(s) [11] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Xena Lewis', Email='xena@example.org'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 122,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "122",
+          "reason": "Duplicate record: this row matches row ID(s) [110] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Patricia Phillips', Email='patricia@work.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 123,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "123",
+          "reason": "Duplicate record: this row matches row ID(s) [43] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Zara Phillips', Email='zara@email.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 124,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "124",
+          "reason": "Duplicate record: this row matches row ID(s) [87] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Adam Smith', Email='adam@gmail.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 125,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "125",
+          "reason": "Duplicate record: this row matches row ID(s) [69] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Rachel Scott', Email='rachel.scott@mail.co'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 126,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "126",
+          "reason": "Duplicate record: this row matches row ID(s) [49] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Michael Smith', Email='michael.smith@site.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 127,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "127",
+          "reason": "Duplicate record: this row matches row ID(s) [41] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Oscar Perez', Email='oscar.perez@mail.co'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 128,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "128",
+          "reason": "Duplicate record: this row matches row ID(s) [81] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Edward Adams', Email='edward.adams@company.net'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 129,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "129",
+          "reason": "Duplicate record: this row matches row ID(s) [92] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='John Turner', Email='john@email.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 130,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "130",
+          "reason": "Duplicate record: this row matches row ID(s) [114] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='Eric Wilson', Email='eric.wilson@work.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 131,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "131",
+          "reason": "Duplicate record: this row matches row ID(s) [106] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='diana carter', Email='diana@work.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 132,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "132",
+          "reason": "Duplicate record: this row matches row ID(s) [67] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='HANNAH JACKSON', Email='hannah@site.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 133,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "133",
+          "reason": "Duplicate record: this row matches row ID(s) [75] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='bob SMITH', Email='bob.smith@gmail.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 134,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "134",
+          "reason": "Duplicate record: this row matches row ID(s) [5] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='ulysses king', Email='ULYSSES.KING@MAIL.CO'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 135,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "135",
+          "reason": "Duplicate record: this row matches row ID(s) [86] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='diana HARRIS', Email='DIANA.HARRIS@SITE.COM'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 136,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "136",
+          "reason": "Duplicate record: this row matches row ID(s) [9] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='mark thomas', Email='MARK.THOMAS@GMAIL.COM'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 137,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "137",
+          "reason": "Duplicate record: this row matches row ID(s) [32] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='jackie turner', Email='JACKIE@WORK.COM'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 138,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "138",
+          "reason": "Duplicate record: this row matches row ID(s) [88] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='VICTORIA CARTER', Email='VICTORIA.CARTER@WORK.COM'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 139,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "139",
+          "reason": "Duplicate record: this row matches row ID(s) [96] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='kyle white', Email='kyle.white@site.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 140,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "140",
+          "reason": "Duplicate record: this row matches row ID(s) [38] on every column except ID (Name, Email, Age, Signup_Date, Purchase_Amt, Status); string fields are compared case-insensitively after trimming whitespace. Shared fingerprint example \u2014 Name='nina WRIGHT', Email='nina@site.com'.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 141,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "julia@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 142,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "michael.nelson@server",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 143,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quinn@server",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 144,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda@mailhost",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 145,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quentin@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 146,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "kyle.mitchell@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 147,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "linda.clark@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 148,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "rachel@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 149,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "kevin.wilson@wong",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 150,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quentin.allen@wong",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 151,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 152,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "jackie.scott@mailhost",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 153,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "samuel.white@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 154,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "bob@wong",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 155,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda.wright@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 156,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "donna.greenwork.com",
+          "reason": "Email must contain exactly one '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 157,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "victoria.martinezwork.com",
+          "reason": "Email must contain exactly one '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 158,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda.daviscompany.net",
+          "reason": "Email must contain exactly one '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 159,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is empty, NULL, or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 160,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "hannahgmail.com",
+          "reason": "Email must contain exactly one '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 161,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is empty, NULL, or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 162,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is empty, NULL, or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 163,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is empty, NULL, or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 164,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is empty, NULL, or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 165,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "hannahexample.org",
+          "reason": "Email must contain exactly one '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 166,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/15/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 167,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "06/14/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 168,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/27/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 169,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/18/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 170,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/02/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 171,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "03/22/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 172,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/08/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 173,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/06/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 174,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/22/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 175,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/14/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 176,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/05/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 177,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "08/20/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 178,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/22/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 179,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/07/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 180,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "08/24/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 181,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/02/13",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 182,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/10/14",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 183,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/06",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 184,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/04/14",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 185,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/04/11",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 186,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/24",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 187,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/03/20",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 188,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/08/25",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 189,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/03/15",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 190,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/17",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 191,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-11-31",
+          "reason": "Date '2023-11-31' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 192,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 193,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date '2023-02-29' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 194,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 195,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 196,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date '2023-13-01' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 197,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date '2023-13-01' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 198,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date '2023-02-29' is not a valid calendar date",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 199,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 200,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 201,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 202,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 203,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 204,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 205,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 206,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 207,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 208,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 209,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 210,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 211,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 212,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 213,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 214,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is empty or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 215,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is empty or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 216,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is empty or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 217,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is empty or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 218,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is empty or NULL",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 219,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-8.36",
+          "reason": "Purchase amount is negative (-8.36)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 220,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-95.21",
+          "reason": "Purchase amount is negative (-95.21)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 221,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-87.95",
+          "reason": "Purchase amount is negative (-87.95)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 222,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-184.94",
+          "reason": "Purchase amount is negative (-184.94)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 223,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-109.55",
+          "reason": "Purchase amount is negative (-109.55)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 224,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-34.16",
+          "reason": "Purchase amount is negative (-34.16)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 225,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-15.93",
+          "reason": "Purchase amount is negative (-15.93)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 226,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-156.48",
+          "reason": "Purchase amount is negative (-156.48)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 227,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-121.41",
+          "reason": "Purchase amount is negative (-121.41)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 228,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-80.21",
+          "reason": "Purchase amount is negative (-80.21)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 229,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"1,964\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 230,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"4,703\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 231,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"8,301\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 232,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"2,939\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 233,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"1,706\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 234,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "974864.58",
+          "reason": "Purchase_Amt exceeds $50,000",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 235,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"2,490\"",
+          "reason": "Purchase_Amt contains commas or abnormal quoting (non-canonical numeric)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 236,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "940610.50",
+          "reason": "Purchase_Amt exceeds $50,000",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 237,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age out of valid range (0\u2013120): -6",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 238,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "198",
+          "reason": "Age out of valid range (0\u2013120): 198",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 239,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age out of valid range (0\u2013120): 194",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 240,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age out of valid range (0\u2013120): -3",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 241,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age out of valid range (0\u2013120): -5",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 242,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age out of valid range (0\u2013120): -3",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 243,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age out of valid range (0\u2013120): 194",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 244,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-4",
+          "reason": "Age out of valid range (0\u2013120): -4",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 245,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "canceled",
+          "reason": "Status 'canceled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 246,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 247,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 248,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 249,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 250,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status 'pending' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 251,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 252,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "cancelled",
+          "reason": "Status 'cancelled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 253,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 254,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "active",
+          "reason": "Status 'active' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 255,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/07/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "jane@mailhost",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 256,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-154.63",
+          "reason": "Purchase amount is negative (-154.63)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 257,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age out of valid range (0\u2013120): -5",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/18/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 258,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-184.88",
+          "reason": "Purchase amount is negative (-184.88)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 259,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "09/09/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "nora.clark@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 260,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/14/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 261,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "john.phillips@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-181.68",
+          "reason": "Purchase amount is negative (-181.68)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 262,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age out of valid range (0\u2013120): -6",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 263,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age out of valid range (0\u2013120): -9",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "06/10/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "Canceled",
+          "reason": "Status 'Canceled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 264,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/06/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 265,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "121",
+          "reason": "Age out of valid range (0\u2013120): 121",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-52.90",
+          "reason": "Purchase amount is negative (-52.9)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 266,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/24/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "nina.baker@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 267,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/25/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-44.61",
+          "reason": "Purchase amount is negative (-44.61)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "active",
+          "reason": "Status 'active' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 268,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/23/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status 'pending' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 269,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "CANCELLED",
+          "reason": "Status 'CANCELLED' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 270,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-2",
+          "reason": "Age out of valid range (0\u2013120): -2",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status 'pending' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 271,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "11/26/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "yuri.nelson@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-116.08",
+          "reason": "Purchase amount is negative (-116.08)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 272,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-4",
+          "reason": "Age out of valid range (0\u2013120): -4",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/16/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 273,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "11/28/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "active",
+          "reason": "Status 'active' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 274,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "09/13/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-38.51",
+          "reason": "Purchase amount is negative (-38.51)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 275,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "127",
+          "reason": "Age out of valid range (0\u2013120): 127",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "CANCELLED",
+          "reason": "Status 'CANCELLED' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 276,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 277,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "127",
+          "reason": "Age out of valid range (0\u2013120): 127",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 278,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/05/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-171.65",
+          "reason": "Purchase amount is negative (-171.65)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 279,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/18/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-66.72",
+          "reason": "Purchase amount is negative (-66.72)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 280,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/09/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "diana.baker@mailhost",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 281,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "198",
+          "reason": "Age out of valid range (0\u2013120): 198",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 282,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-103.05",
+          "reason": "Purchase amount is negative (-103.05)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "canceled",
+          "reason": "Status 'canceled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 283,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "06/07/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 284,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "164",
+          "reason": "Age out of valid range (0\u2013120): 164",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/05/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 285,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "08/06/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 286,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "150",
+          "reason": "Age out of valid range (0\u2013120): 150",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "julia.turner@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 287,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-2",
+          "reason": "Age out of valid range (0\u2013120): -2",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "charlie@wong",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 288,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/17/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "john.smith@mailhost",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "CANCELLED",
+          "reason": "Status 'CANCELLED' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 289,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "149",
+          "reason": "Age out of valid range (0\u2013120): 149",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/26/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 290,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/13/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quinn.davis@gmail",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 291,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "donna.adams@server",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-137.20",
+          "reason": "Purchase amount is negative (-137.2)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "cancelled",
+          "reason": "Status 'cancelled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 292,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/27/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 293,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "164",
+          "reason": "Age out of valid range (0\u2013120): 164",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "walter@domain",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 294,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "169",
+          "reason": "Age out of valid range (0\u2013120): 169",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "11/09/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-86.94",
+          "reason": "Purchase amount is negative (-86.94)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 295,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age out of valid range (0\u2013120): -9",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 296,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age out of valid range (0\u2013120): -9",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "ACTIVE",
+          "reason": "Status 'ACTIVE' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 297,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status 'pending' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 298,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "03/09/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "ian@wong",
+          "reason": "Email domain lacks a top-level domain (no '.' after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 299,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "06/09/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is empty or whitespace-only",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "canceled",
+          "reason": "Status 'canceled' is not in canonical form (Active|Pending|Cancelled)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 300,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "146",
+          "reason": "Age out of valid range (0\u2013120): 146",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/13/2023",
+          "reason": "Date is not in canonical YYYY-MM-DD format",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-60.79",
+          "reason": "Purchase amount is negative (-60.79)",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "sensitivity_notes": [
+    "Case-variant duplicates test whether the prompt instructs case-insensitive matching",
+    "Impossible dates (2023-02-29, 2023-02-30) test date validation depth",
+    "Status case variations ('active' vs 'Active') test format consistency detection",
+    "String-formatted amounts with commas test non-numeric purchase amount detection",
+    "Multi-error rows test whether the model can identify several co-occurring issues"
+  ]
+}

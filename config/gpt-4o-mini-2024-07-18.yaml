@@ -1,0 +1,5 @@
+# The GPT-4o mini model
+model: gpt-4o-mini-2024-07-18
+api: 2025-01-01-preview
+temperature: 0.0
+max_tokens: 16384

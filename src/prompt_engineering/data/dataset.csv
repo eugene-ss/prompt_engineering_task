@@ -1,0 +1,301 @@
+ID,Name,Email,Age,Signup_Date,Purchase_Amt,Status
+1,Mark Garcia,mark@work.com,49,2023-04-05,1106.02,Cancelled
+2,Grant Davis,grant.davis@email.com,21,2023-02-07,352.83,Cancelled
+3,Jane Phillips,jane@company.net,71,2023-04-15,885.95,Active
+4,Ivan Adams,ivan@gmail.com,45,2023-06-04,143.66,Active
+5,Ulysses King,ulysses.king@mail.co,23,2023-12-15,806.66,Pending
+6,Diana Phillips,diana@company.net,64,2023-10-07,1058.33,Active
+7,Paul White,paul.white@email.com,47,2023-02-13,420.57,Cancelled
+8,Victoria Thomas,victoria@gmail.com,52,2023-12-22,973.81,Cancelled
+9,Mark Thomas,mark.thomas@gmail.com,38,2023-08-13,408.57,Cancelled
+10,Heidi White,heidi.white@mail.co,25,2023-04-27,52.99,Pending
+11,Xena Lewis,xena@example.org,58,2023-04-21,751.35,Cancelled
+12,Brenda Anderson,brenda@gmail.com,51,2023-12-19,645.51,Cancelled
+13,Xena Wright,xena@gmail.com,83,2023-08-03,1134.89,Active
+14,Hannah Thomas,hannah.thomas@site.com,26,2023-07-13,895.85,Pending
+15,Felicity Clark,felicity.clark@mail.co,19,2023-11-24,176.25,Cancelled
+16,Patricia Allen,patricia@site.com,38,2023-08-01,1430.95,Cancelled
+17,Oscar Perez,oscar.perez@example.org,31,2023-11-10,1263.30,Cancelled
+18,Kyle Moore,kyle@mail.co,38,2023-09-25,1384.04,Active
+19,Kyle Young,kyle.young@email.com,64,2023-05-08,91.60,Cancelled
+20,Diana Davis,diana.davis@mail.co,26,2023-09-25,193.01,Cancelled
+21,Carl Phillips,carl@example.org,72,2023-04-18,1134.12,Cancelled
+22,Kevin Walker,kevin@company.net,65,2023-08-17,679.97,Active
+23,Michael Johnson,michael@example.org,47,2023-10-08,15.75,Cancelled
+24,Mark Wong,mark@email.com,60,2023-02-17,360.82,Cancelled
+25,Donna Jackson,donna.jackson@company.net,78,2023-04-26,712.09,Pending
+26,Kevin Martinez,kevin@site.com,63,2023-07-14,703.20,Cancelled
+27,Alice Martinez,alice@company.net,61,2023-02-08,291.43,Cancelled
+28,Adam Wilson,adam.wilson@work.com,77,2023-04-28,1385.28,Pending
+29,Heidi Martinez,heidi@example.org,19,2023-02-25,1273.80,Active
+30,Yuri Mitchell,yuri.mitchell@mail.co,69,2023-01-06,571.56,Pending
+31,Oscar Nelson,oscar@company.net,80,2023-03-07,448.58,Active
+32,Jackie Turner,jackie@work.com,25,2023-01-19,717.80,Cancelled
+33,Ivan Wong,ivan.wong@email.com,41,2023-02-20,106.60,Active
+34,Xena Garcia,xena.garcia@example.org,49,2023-10-20,64.41,Active
+35,Yuri Roberts,yuri@work.com,44,2023-11-23,474.70,Pending
+36,Xena Wilson,xena.wilson@work.com,76,2023-06-25,1403.92,Active
+37,Brenda Martinez,brenda@gmail.com,82,2023-05-05,1400.22,Active
+38,Nina Wright,nina@site.com,56,2023-10-26,982.69,Active
+39,Paul Phillips,paul@company.net,31,2023-03-09,177.57,Active
+40,Heidi Anderson,heidi@example.org,44,2023-12-11,309.38,Cancelled
+41,Oscar Perez,oscar.perez@mail.co,24,2023-02-21,638.25,Pending
+42,Bob Doe,bob@gmail.com,51,2023-03-24,665.54,Cancelled
+43,Zara Phillips,zara@email.com,37,2023-09-02,1252.72,Cancelled
+44,Heidi Anderson,heidi.anderson@email.com,57,2023-06-26,1458.43,Active
+45,Ulysses Jackson,ulysses.jackson@company.net,31,2023-06-25,842.03,Pending
+46,Linda Anderson,linda.anderson@gmail.com,38,2023-03-14,42.06,Cancelled
+47,Tina Green,tina.green@mail.co,49,2023-05-06,1182.12,Active
+48,Walter Brown,walter.brown@gmail.com,43,2023-08-12,461.26,Active
+49,Michael Smith,michael.smith@site.com,60,2023-05-28,108.78,Pending
+50,Ulysses Perez,ulysses@mail.co,60,2023-01-04,1316.17,Pending
+51,Julia Clark,julia@example.org,73,2023-06-24,1180.71,Pending
+52,Kyle Perez,kyle@example.org,42,2023-05-02,1064.63,Active
+53,Felicity Turner,felicity.turner@company.net,43,2023-06-14,109.61,Cancelled
+54,Tina Young,tina.young@email.com,56,2023-09-10,1002.00,Pending
+55,Xena Robinson,xena.robinson@gmail.com,71,2023-11-13,1017.59,Active
+56,Linda Walker,linda.walker@mail.co,18,2023-05-10,319.22,Cancelled
+57,Kyle Young,kyle.young@site.com,45,2023-09-16,1191.63,Cancelled
+58,Ivan Davis,ivan@company.net,60,2023-02-27,1428.24,Active
+59,Quinn Walker,quinn@gmail.com,36,2023-01-02,371.04,Pending
+60,Linda Johnson,linda.johnson@company.net,42,2023-12-23,579.05,Pending
+61,Nina Anderson,nina.anderson@email.com,31,2023-07-08,267.95,Cancelled
+62,Felicity Nelson,felicity@gmail.com,33,2023-08-05,1203.12,Cancelled
+63,Felicity Phillips,felicity.phillips@mail.co,74,2023-10-27,1080.31,Cancelled
+64,Zara Phillips,zara.phillips@gmail.com,78,2023-08-09,1128.91,Cancelled
+65,Patricia Roberts,patricia.roberts@gmail.com,53,2023-08-03,1071.75,Active
+66,Patricia Allen,patricia@example.org,28,2023-03-05,350.74,Cancelled
+67,Hannah Jackson,hannah@site.com,60,2023-09-15,626.58,Active
+68,Yuri Scott,yuri.scott@example.org,20,2023-10-13,718.08,Pending
+69,Rachel Scott,rachel.scott@mail.co,71,2023-09-24,1103.28,Cancelled
+70,Michael Mitchell,michael@site.com,80,2023-01-13,507.51,Cancelled
+71,Xena Thomas,xena.thomas@gmail.com,21,2023-07-19,848.77,Active
+72,Diana Adams,diana@site.com,41,2023-01-09,571.76,Active
+73,Brenda Young,brenda@site.com,53,2023-07-09,1253.19,Pending
+74,Jane Turner,jane@work.com,46,2023-11-03,1172.94,Cancelled
+75,Bob Smith,bob.smith@gmail.com,20,2023-10-05,361.62,Pending
+76,Paul Garcia,paul.garcia@gmail.com,77,2023-12-09,1151.51,Active
+77,Kyle Garcia,kyle.garcia@gmail.com,57,2023-02-19,43.39,Pending
+78,Ian Scott,ian@company.net,43,2023-02-19,1037.47,Cancelled
+79,Nina Martinez,nina.martinez@work.com,33,2023-10-26,66.40,Cancelled
+80,Zara Wright,zara@company.net,61,2023-01-28,632.99,Pending
+81,Edward Adams,edward.adams@company.net,76,2023-12-05,656.05,Cancelled
+82,Felicity Lewis,felicity.lewis@example.org,79,2023-08-14,1239.47,Cancelled
+83,Patricia Young,patricia.young@mail.co,29,2023-05-15,369.58,Pending
+84,Ian Scott,ian@site.com,59,2023-03-16,322.12,Pending
+85,Tina Lewis,tina.lewis@company.net,53,2023-09-01,777.36,Active
+86,Diana Harris,diana.harris@site.com,48,2023-12-16,970.62,Pending
+87,Adam Smith,adam@gmail.com,69,2023-12-08,462.78,Cancelled
+88,Victoria Carter,victoria.carter@work.com,72,2023-12-18,499.53,Cancelled
+89,Brenda Lewis,brenda@gmail.com,33,2023-12-07,476.74,Cancelled
+90,Grant Taylor,grant@company.net,79,2023-05-24,886.43,Cancelled
+91,Kyle Robinson,kyle.robinson@mail.co,42,2023-05-08,544.52,Pending
+92,John Turner,john@email.com,24,2023-09-10,1047.64,Active
+93,Mark Mitchell,mark@email.com,54,2023-08-16,663.50,Active
+94,Alice Clark,alice.clark@site.com,32,2023-02-13,740.16,Cancelled
+95,Mark Wong,mark@mail.co,56,2023-02-08,182.09,Pending
+96,Kyle White,kyle.white@site.com,75,2023-08-10,1290.95,Pending
+97,Rachel Wong,rachel.wong@company.net,30,2023-04-21,320.48,Cancelled
+98,Diana Thomas,diana@example.org,27,2023-03-01,615.73,Cancelled
+99,Kyle Carter,kyle@gmail.com,54,2023-12-10,1055.97,Pending
+100,Charlie White,charlie.white@mail.co,43,2023-07-04,819.12,Cancelled
+101,Hannah Lewis,hannah.lewis@email.com,25,2023-03-26,464.88,Cancelled
+102,Ian Robinson,ian.robinson@site.com,56,2023-12-13,1414.30,Cancelled
+103,Grant Mitchell,grant.mitchell@example.org,23,2023-07-24,486.87,Pending
+104,Jane Davis,jane@company.net,20,2023-11-27,407.92,Active
+105,Julia Carter,julia.carter@site.com,53,2023-03-19,656.65,Pending
+106,Diana Carter,diana@work.com,59,2023-11-04,1287.31,Pending
+107,Yuri Mitchell,yuri@site.com,22,2023-08-03,475.20,Pending
+108,Fiona Hill,fiona.hill@mail.co,18,2023-11-28,816.18,Pending
+109,Alice Moore,alice.moore@example.org,81,2023-11-15,1141.19,Active
+110,Patricia Phillips,patricia@work.com,74,2023-12-16,186.53,Cancelled
+111,Kyle Harris,kyle.harris@work.com,19,2023-09-14,144.35,Active
+112,Brenda Garcia,brenda.garcia@gmail.com,81,2023-12-10,765.76,Pending
+113,Yuri Carter,yuri.carter@gmail.com,76,2023-09-05,578.46,Cancelled
+114,Eric Wilson,eric.wilson@work.com,71,2023-06-26,764.07,Active
+115,Quentin Walker,quentin.walker@example.org,80,2023-03-15,810.18,Pending
+116,Tina Phillips,tina.phillips@site.com,76,2023-06-28,287.04,Cancelled
+117,Nina Scott,nina@mail.co,70,2023-01-11,1118.33,Cancelled
+118,Walter Scott,walter.scott@mail.co,37,2023-08-02,193.74,Cancelled
+119,Tina Martinez,tina.martinez@site.com,30,2023-09-15,27.94,Active
+120,Yuri Anderson,yuri@mail.co,51,2023-06-20,1040.59,Cancelled
+121,Xena Lewis,xena@example.org,58,2023-04-21,751.35,Cancelled
+122,Patricia Phillips,patricia@work.com,74,2023-12-16,186.53,Cancelled
+123,Zara Phillips,zara@email.com,37,2023-09-02,1252.72,Cancelled
+124,Adam Smith,adam@gmail.com,69,2023-12-08,462.78,Cancelled
+125,Rachel Scott,rachel.scott@mail.co,71,2023-09-24,1103.28,Cancelled
+126,Michael Smith,michael.smith@site.com,60,2023-05-28,108.78,Pending
+127,Oscar Perez,oscar.perez@mail.co,24,2023-02-21,638.25,Pending
+128,Edward Adams,edward.adams@company.net,76,2023-12-05,656.05,Cancelled
+129,John Turner,john@email.com,24,2023-09-10,1047.64,Active
+130,Eric Wilson,eric.wilson@work.com,71,2023-06-26,764.07,Active
+131,diana carter,diana@work.com,59,2023-11-04,1287.31,Pending
+132,HANNAH JACKSON,hannah@site.com,60,2023-09-15,626.58,Active
+133,bob SMITH,bob.smith@gmail.com,20,2023-10-05,361.62,Pending
+134,ulysses king,ULYSSES.KING@MAIL.CO,23,2023-12-15,806.66,Pending
+135,diana HARRIS,DIANA.HARRIS@SITE.COM,48,2023-12-16,970.62,Pending
+136,mark thomas,MARK.THOMAS@GMAIL.COM,38,2023-08-13,408.57,Cancelled
+137,jackie turner,JACKIE@WORK.COM,25,2023-01-19,717.80,Cancelled
+138,VICTORIA CARTER,VICTORIA.CARTER@WORK.COM,72,2023-12-18,499.53,Cancelled
+139,kyle white,kyle.white@site.com,75,2023-08-10,1290.95,Pending
+140,nina WRIGHT,nina@site.com,56,2023-10-26,982.69,Active
+141,Julia Thomas,julia@domain,66,2023-10-22,365.04,Cancelled
+142,Michael Nelson,michael.nelson@server,50,2023-11-01,1348.87,Pending
+143,Quinn Turner,quinn@server,62,2023-10-10,960.21,Pending
+144,Brenda Walker,brenda@mailhost,79,2023-02-08,575.14,Pending
+145,Quentin Robinson,quentin@gmail,68,2023-05-01,851.06,Cancelled
+146,Kyle Mitchell,kyle.mitchell@domain,47,2023-10-26,531.72,Cancelled
+147,Linda Clark,linda.clark@gmail,35,2023-11-04,1355.59,Cancelled
+148,Rachel Baker,rachel@domain,34,2023-02-10,493.45,Pending
+149,Kevin Wilson,kevin.wilson@wong,85,2023-09-09,1246.56,Pending
+150,Quentin Allen,quentin.allen@wong,27,2023-03-25,1449.92,Cancelled
+151,Heidi Wright,heidi@server,19,2023-05-18,189.77,Pending
+152,Jackie Scott,jackie.scott@mailhost,31,2023-11-08,709.86,Cancelled
+153,Samuel White,samuel.white@domain,77,2023-12-10,975.61,Active
+154,Bob Brown,bob@wong,32,2023-02-08,1331.45,Active
+155,Brenda Wright,brenda.wright@gmail,71,2023-10-24,1091.27,Pending
+156,Donna Green,donna.greenwork.com,22,2023-12-12,329.82,Pending
+157,Victoria Martinez,victoria.martinezwork.com,63,2023-01-13,417.44,Active
+158,Brenda Davis,brenda.daviscompany.net,20,2023-01-26,503.60,Active
+159,Laura Johnson,,44,2023-10-07,1220.51,Active
+160,Hannah Doe,hannahgmail.com,34,2023-09-09,1198.78,Active
+161,Jane Wilson,,48,2023-10-11,28.59,Pending
+162,Yuri Roberts,,78,2023-08-25,546.25,Cancelled
+163,Eric White,,84,2023-05-15,966.79,Active
+164,Carl Hill,,80,2023-12-15,114.87,Active
+165,Hannah Johnson,hannahexample.org,59,2023-07-20,798.18,Pending
+166,Zara Martinez,zara.martinez@email.com,45,07/15/2023,1332.70,Pending
+167,Tina Nelson,tina@company.net,30,06/14/2023,472.22,Pending
+168,Victoria Anderson,victoria.anderson@site.com,26,02/27/2023,132.62,Pending
+169,Edward Wright,edward.wright@example.org,25,10/18/2023,844.72,Cancelled
+170,Fiona Green,fiona@company.net,72,12/02/2023,1452.76,Cancelled
+171,Rachel King,rachel@example.org,45,03/22/2023,725.87,Active
+172,Ulysses Phillips,ulysses@mail.co,53,10/08/2023,1211.80,Cancelled
+173,Linda Phillips,linda@company.net,52,01/06/2023,413.54,Pending
+174,Tina King,tina@mail.co,36,10/22/2023,604.17,Active
+175,Mark Smith,mark@example.org,45,07/14/2023,683.20,Active
+176,Victoria Walker,victoria.walker@mail.co,28,01/05/2023,240.33,Cancelled
+177,Alice Davis,alice@company.net,72,08/20/2023,665.86,Pending
+178,Laura Perez,laura@site.com,32,05/22/2023,1019.34,Pending
+179,Felicity Walker,felicity@site.com,25,01/07/2023,455.62,Active
+180,George Clark,george@email.com,18,08/24/2023,648.83,Active
+181,Walter Turner,walter.turner@example.org,63,2023/02/13,1293.34,Active
+182,Zara Smith,zara.smith@email.com,58,2023/10/14,862.23,Cancelled
+183,Mark Green,mark@site.com,20,2023/06/06,1202.98,Cancelled
+184,Brenda Wright,brenda@mail.co,31,2023/04/14,885.36,Cancelled
+185,Diana Hill,diana.hill@company.net,61,2023/04/11,1169.78,Active
+186,Eric Garcia,eric.garcia@gmail.com,62,2023/06/24,1437.54,Cancelled
+187,Hannah Harris,hannah@work.com,43,2023/03/20,233.54,Cancelled
+188,Charlie Taylor,charlie.taylor@company.net,81,2023/08/25,847.78,Cancelled
+189,Adam Young,adam.young@company.net,58,2023/03/15,107.09,Pending
+190,Mark Walker,mark.walker@example.org,25,2023/06/17,115.92,Pending
+191,Adam Brown,adam@mail.co,54,2023-11-31,1297.05,Active
+192,Brenda Phillips,brenda.phillips@company.net,23,2023-00-15,859.63,Active
+193,Kyle Carter,kyle.carter@email.com,75,2023-02-29,1349.19,Pending
+194,Eric Taylor,eric@company.net,74,2023-00-15,786.51,Active
+195,Victoria Robinson,victoria@mail.co,61,2023-00-15,83.29,Cancelled
+196,Charlie Allen,charlie@company.net,67,2023-13-01,1086.98,Cancelled
+197,Tina Davis,tina.davis@gmail.com,62,2023-13-01,1049.23,Pending
+198,Kyle Davis,kyle@site.com,60,2023-02-29,1055.73,Cancelled
+199,,nora.adams@email.com,64,2023-05-06,1427.00,Pending
+200,,donna@gmail.com,37,2023-02-10,1267.42,Active
+201,,eric.turner@example.org,22,2023-11-11,1315.21,Cancelled
+202,,george@gmail.com,39,2023-12-15,70.32,Pending
+203,,quinn.harris@example.org,54,2023-12-26,676.15,Cancelled
+204,,nina.walker@mail.co,78,2023-04-12,1019.07,Cancelled
+205,,adam.nelson@mail.co,66,2023-09-17,630.90,Active
+206,,kevin.wilson@email.com,79,2023-06-18,1401.77,Cancelled
+207,Felicity Garcia,felicity@mail.co,38,2023-05-15,NULL,Active
+208,Zara Davis,zara.davis@gmail.com,75,2023-06-01,NULL,Pending
+209,Eric Wright,eric@email.com,65,2023-04-01,NULL,Active
+210,Nora Allen,nora.allen@gmail.com,22,2023-05-27,NULL,Active
+211,Carl Baker,carl.baker@email.com,20,2023-05-07,NULL,Cancelled
+212,Kyle Roberts,kyle.roberts@mail.co,54,2023-04-10,NULL,Active
+213,Yuri Nelson,yuri@mail.co,81,2023-10-18,NULL,Cancelled
+214,Ian Harris,ian.harris@work.com,,2023-01-20,532.46,Cancelled
+215,Yuri Taylor,yuri.taylor@email.com,,2023-06-03,1430.34,Cancelled
+216,Eric Perez,eric.perez@site.com,,2023-01-21,583.39,Pending
+217,Oscar Smith,oscar@email.com,,2023-04-24,987.37,Active
+218,Jackie Allen,jackie@work.com,,2023-11-06,1246.42,Cancelled
+219,Brenda Carter,brenda.carter@mail.co,35,2023-02-23,-8.36,Pending
+220,Kevin Brown,kevin.brown@email.com,58,2023-05-17,-95.21,Cancelled
+221,Bob Moore,bob@mail.co,24,2023-11-11,-87.95,Pending
+222,Xena Baker,xena.baker@site.com,61,2023-03-16,-184.94,Pending
+223,Felicity Lewis,felicity.lewis@company.net,72,2023-02-14,-109.55,Active
+224,Samuel Martinez,samuel@company.net,55,2023-05-15,-34.16,Pending
+225,Adam King,adam.king@company.net,63,2023-10-14,-15.93,Active
+226,Mark Hill,mark@mail.co,38,2023-01-05,-156.48,Cancelled
+227,Bob Wilson,bob@mail.co,64,2023-06-13,-121.41,Active
+228,Quinn Baker,quinn.baker@work.com,74,2023-02-19,-80.21,Pending
+229,Nora Lewis,nora@email.com,21,2023-12-06,"""1,964""",Pending
+230,Oscar Clark,oscar.clark@gmail.com,54,2023-12-16,"""4,703""",Active
+231,Julia Baker,julia.baker@mail.co,58,2023-11-12,"""8,301""",Cancelled
+232,Rachel Thomas,rachel.thomas@company.net,40,2023-06-17,"""2,939""",Active
+233,Donna Smith,donna@example.org,65,2023-08-26,"""1,706""",Active
+234,Charlie Walker,charlie@company.net,79,2023-09-14,974864.58,Cancelled
+235,Nora Johnson,nora.johnson@company.net,84,2023-06-05,"""2,490""",Cancelled
+236,George Adams,george.adams@mail.co,25,2023-02-17,940610.50,Active
+237,Michael King,michael.king@example.org,-6,2023-02-09,298.47,Cancelled
+238,Linda Turner,linda@company.net,198,2023-10-19,235.52,Cancelled
+239,Tina Brown,tina.brown@email.com,194,2023-01-21,1157.68,Pending
+240,Yuri Smith,yuri.smith@company.net,-3,2023-11-10,727.00,Cancelled
+241,Charlie Wong,charlie@site.com,-5,2023-08-07,513.59,Active
+242,Ulysses Hill,ulysses@work.com,-3,2023-09-04,482.08,Pending
+243,Nina Anderson,nina@work.com,194,2023-10-14,376.16,Active
+244,Samuel Moore,samuel.moore@site.com,-4,2023-08-16,1319.22,Pending
+245,Eric Nelson,eric.nelson@gmail.com,63,2023-01-02,425.63,canceled
+246,Quentin Turner,quentin@email.com,73,2023-03-09,1092.62,PENDING
+247,Bob Hill,bob@example.org,42,2023-06-18,436.46,pEnDiNg
+248,Adam Phillips,adam@example.org,33,2023-03-04,593.89,pEnDiNg
+249,Victoria Anderson,victoria@example.org,69,2023-09-02,72.73,aCtiVe
+250,Tina Carter,tina.carter@gmail.com,83,2023-03-11,1397.40,pending
+251,Xena Walker,xena.walker@example.org,83,2023-09-16,1064.57,PENDING
+252,Jane Wright,jane@email.com,71,2023-10-10,1196.15,cancelled
+253,Kyle Carter,kyle@company.net,47,2023-12-02,877.37,aCtiVe
+254,Mark Scott,mark@company.net,49,2023-01-19,1422.57,active
+255,,jane@mailhost,70,12/07/2023,618.51,Cancelled
+256,,laura@company.net,79,2023-09-13,-154.63,aCtiVe
+257,,quinn.clark@gmail.com,-5,05/18/2023,451.26,Pending
+258,,heidi@server,66,2023-07-27,-184.88,Active
+259,,nora.clark@domain,43,09/09/2023,1399.87,Cancelled
+260,,alice@gmail.com,24,02/14/2023,498.79,Pending
+261,,john.phillips@gmail,70,2023-11-16,-181.68,Active
+262,,nora.white@company.net,-6,2023-03-14,1323.96,Active
+263,Bob Doe,bob@example.org,-9,06/10/2023,684.25,Canceled
+264,,tina.thomas@company.net,50,12/06/2023,26.06,pEnDiNg
+265,Mark Hill,mark.hill@example.org,121,2023-02-13,-52.90,Active
+266,,nina.baker@gmail,56,10/24/2023,861.45,Pending
+267,Brenda Walker,brenda@company.net,82,12/25/2023,-44.61,active
+268,Carl Anderson,carl.anderson@example.org,65,07/23/2023,826.11,pending
+269,,felicity.baker@work.com,27,2023-10-04,97.33,CANCELLED
+270,Ivan Young,ivan.young@site.com,-2,2023-11-07,1076.79,pending
+271,Yuri Nelson,yuri.nelson@gmail,77,11/26/2023,-116.08,Active
+272,Zara King,zara.king@example.org,-4,02/16/2023,52.44,Pending
+273,,adam@company.net,35,11/28/2023,524.92,active
+274,,jane.walker@company.net,72,09/13/2023,-38.51,Active
+275,Fiona Brown,fiona.brown@site.com,127,2023-04-07,105.60,CANCELLED
+276,,bob.hill@example.org,45,2023-01-05,758.32,PENDING
+277,,ian@gmail.com,127,2023-04-14,454.25,Active
+278,,ulysses.scott@work.com,71,07/05/2023,-171.65,Active
+279,Hannah Nelson,hannah.nelson@example.org,70,07/18/2023,-66.72,Pending
+280,Diana Baker,diana.baker@mailhost,42,01/09/2023,568.87,Cancelled
+281,,paul@gmail.com,198,2023-05-01,321.65,Active
+282,,laura.hill@example.org,59,2023-05-13,-103.05,canceled
+283,Brenda Martinez,brenda.martinez@company.net,78,06/07/2023,559.20,pEnDiNg
+284,Hannah Smith,hannah@example.org,164,05/05/2023,298.31,aCtiVe
+285,Oscar Mitchell,oscar.mitchell@company.net,80,08/06/2023,1100.49,PENDING
+286,Julia Turner,julia.turner@domain,150,2023-01-27,1270.81,Cancelled
+287,,charlie@wong,-2,2023-06-02,928.66,Cancelled
+288,John Smith,john.smith@mailhost,54,01/17/2023,1220.67,CANCELLED
+289,Nina Moore,nina.moore@work.com,149,05/26/2023,598.36,PENDING
+290,,quinn.davis@gmail,22,02/13/2023,572.00,Cancelled
+291,Donna Adams,donna.adams@server,30,2023-09-02,-137.20,cancelled
+292,,julia@gmail.com,36,12/27/2023,600.45,aCtiVe
+293,,walter@domain,164,2023-12-24,122.25,Cancelled
+294,Kyle Hill,kyle.hill@work.com,169,11/09/2023,-86.94,Pending
+295,,diana.robinson@company.net,-9,2023-02-09,235.56,Cancelled
+296,,diana.doe@site.com,-9,2023-05-04,203.10,ACTIVE
+297,,heidi.davis@mail.co,59,2023-07-01,441.31,pending
+298,Ian Roberts,ian@wong,39,03/09/2023,455.19,Pending
+299,,patricia@mail.co,27,06/09/2023,1416.61,canceled
+300,Edward Wilson,edward@site.com,146,10/13/2023,-60.79,Pending
