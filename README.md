@@ -177,7 +177,7 @@ Copy `.env.example` to `.env` and fill in:
 |----------|-------------|
 | `API_KEY` | API key for the LLM proxy |
 | `ENDPOINT_URL` | Base URL (e.g. `https://ai-proxy.lab.epam.com/`) |
-| `MODEL_NAME` | Optional. Default config name: which file to load as `config/{MODEL_NAME}.yaml`. Defaults to `gpt-4.1-mini-2025-04-14` if unset. Overridable per run with `--model`. |
+| `MODEL_NAME` | Optional. Default config name: which file to load as `config/{MODEL_NAME}.yaml`. Defaults to `gpt-4` if unset. Overridable per run with `--model`. |
 
 ## End-To-End Verification
 
@@ -185,19 +185,19 @@ Full steps to verify the pipeline and the `--model` override:
 
 1. **Prerequisites**
    - From the project root: `uv sync`, then copy `.env.example` to `.env` and set `API_KEY` and `ENDPOINT_URL`.
-   - Ensure `config/gpt-4.1-mini-2025-04-14.yaml` exists (or another valid config).
+   - Ensure `config/gpt-4.yaml` exists (or another valid config).
 
 2. **Default model**
    - Run: `uv run prompt-engineering run -p v1`
-   - In the log output you should see a line as: `Using LLM config: gpt-4.1-mini-2025-04-14 — model=..., api=..., temperature=..., max_tokens=...`
+   - In the log output you should see a line as: `Using LLM config: gpt-4 — model=..., api=..., temperature=..., max_tokens=...`
    - Confirm the run completes and writes under `outputs/v1/`: `v1_response.json`, `v1_llm_eval.json`.
 
 3. **Explicit `--model`**
-   - Run: `uv run prompt-engineering run -p v1 --model gpt-4.1-mini-2025-04-14`
-   - Check the log for `Using LLM config: gpt-4.1-mini-2025-04-14` and the same parameters. Output should match step 2.
+   - Run: `uv run prompt-engineering run -p v1 --model gpt-4`
+   - Check the log for `Using LLM config: gpt-4` and the same parameters. Output should match step 2.
 
 4. **`--model` with `optimize`**
-   - Run: `uv run prompt-engineering optimize --from v1 --model gpt-4.1-mini-2025-04-14`
+   - Run: `uv run prompt-engineering optimize --from v1 --model gpt-4`
    - Log should show the same config line. The command should run MetaPrompter, show the improved prompt and save it as `prompts/v4.md` (or the next free version). You can optionally pass `-o path.md` to save a copy elsewhere.
 
 5. **Optimize saves as next version and is runnable**

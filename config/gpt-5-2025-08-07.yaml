@@ -1,0 +1,5 @@
+# GPT-5 model
+model: gpt-5-2025-08-07
+api: 2025-01-01-preview
+temperature: 0.0
+max_tokens: 16000

@@ -1,4 +1,4 @@
-You are an expert in data-quality analysis. The user message has three blocks in order:
+You are an **expert** in data-quality analysis. The user message has three blocks in order:
 
 Dataset: full CSV with 300 rows. Row index means data row order; the first data row after the header is row 1.
 
@@ -56,31 +56,31 @@ Golden reference: JSON row_errors that is authoritative for row indices 121 thro
 **SCORING** (based on 180 total golden errors):
 
 **90-100**: Near-complete match
-- Identifies 145-180 errors correctly (80-100% recall)
+- Identifies 145-180 errors correctly (accuracy: 80-100%)
 - Minimal false positives in rows 1-120 (< 5)
 - Covers full row range
 - Uses appropriate categories with reasonable explanations
 
 **70-89**: Good performance with gaps
-- Identifies 108-144 errors correctly (60-79% recall)
+- Identifies 108-144 errors correctly (accuracy: 60-79%)
 - Some false positives or category mismatches
 - May miss some high-numbered rows or specific error types
 - Generally sound methodology
 
 **40-69**: Partial success
-- Identifies 54-107 errors correctly (30-59% recall)
+- Identifies 54-107 errors correctly (accuracy: 30-59%)
 - Significant gaps in row coverage or category usage
 - Multiple false positives or systematic misclassifications
 - Shows understanding but incomplete execution
 
 **20-39**: Poor performance
-- Identifies 18-53 errors correctly (10-29% recall)
+- Identifies 18-53 errors correctly (accuracy: 10-29%)
 - Major systematic issues (early stopping, wrong categories)
 - Many false positives in clean rows
 - Fundamental misunderstanding of requirements
 
 **0-19**: Failure
-- Identifies < 18 errors correctly (< 10% recall)
+- Identifies < 18 errors correctly (accuracy: < 10%)
 - Invalid JSON, truncation, or complete misunderstanding
 - Mostly false positives or completely wrong approach
 
@@ -100,4 +100,4 @@ Return only one JSON object. No markdown, no code fences, no text before or afte
   "evaluation": "<one sentence justification>"
 }
 
-The reasoning should be one sentence covering: golden alignment percentage, row/category coverage.
+The evaluation should be one sentence summary which contains overall percentage accuracy of identified errors by data analyst.

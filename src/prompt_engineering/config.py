@@ -48,7 +48,7 @@ class AppConfig(BaseSettings):
         description="Base URL for the LLM proxy",
     )
     MODEL_NAME: str = Field(
-        default="gpt-4.1-mini-2025-04-14",
+        default="gpt-4",
         description="Config file selector: load config/{MODEL_NAME}.yaml (defines model, api, temperature, max_tokens)",
     )
     MAX_CONCURRENT_REQUESTS: int = Field(default=50, ge=1)
