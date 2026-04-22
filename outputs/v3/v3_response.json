@@ -1,0 +1,1598 @@
+{
+  "prompt_version": "v3",
+  "model": "gpt-4",
+  "latency_ms": 37558.8,
+  "raw_response": "{\n   \"row_errors\":[\n      {\n         \"row_index\":141,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"julia@domain\",\n               \"reason\":\"Email domain 'domain' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":142,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"michael.nelson@server\",\n               \"reason\":\"Email domain 'server' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":143,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"quinn@server\",\n               \"reason\":\"Email domain 'server' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":144,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"brenda@mailhost\",\n               \"reason\":\"Email domain 'mailhost' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":145,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"quentin@gmail\",\n               \"reason\":\"Email domain 'gmail' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":146,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"kyle.mitchell@domain\",\n               \"reason\":\"Email domain 'domain' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":147,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"linda.clark@gmail\",\n               \"reason\":\"Email domain 'gmail' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":148,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"rachel@domain\",\n               \"reason\":\"Email domain 'domain' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":149,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"kevin.wilson@wong\",\n               \"reason\":\"Email domain 'wong' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":150,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"quentin.allen@wong\",\n               \"reason\":\"Email domain 'wong' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":151,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"heidi@server\",\n               \"reason\":\"Email domain 'server' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":152,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"jackie.scott@mailhost\",\n               \"reason\":\"Email domain 'mailhost' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":153,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"samuel.white@domain\",\n               \"reason\":\"Email domain 'domain' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":155,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"brenda.wright@gmail\",\n               \"reason\":\"Email domain 'gmail' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":156,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"donna.greenwork.com\",\n               \"reason\":\"Email is missing '@' character\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":157,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"victoria.martinezwork.com\",\n               \"reason\":\"Email is missing '@' character\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":158,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"brenda.daviscompany.net\",\n               \"reason\":\"Email is missing '@' character\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":159,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Email\",\n               \"value\":\"\",\n               \"reason\":\"Email is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":160,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"hannahgmail.com\",\n               \"reason\":\"Email is missing '@' character\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":161,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Email\",\n               \"value\":\"\",\n               \"reason\":\"Email is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":162,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Email\",\n               \"value\":\"\",\n               \"reason\":\"Email is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":163,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Email\",\n               \"value\":\"\",\n               \"reason\":\"Email is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":164,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Email\",\n               \"value\":\"\",\n               \"reason\":\"Email is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":165,\n         \"errors\":[\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"hannahexample.org\",\n               \"reason\":\"Email is missing '@' character\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":166,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"07/15/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":167,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"06/14/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":168,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"02/27/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":169,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"10/18/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":170,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"12/02/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":171,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"03/22/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":172,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"10/08/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":173,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"01/06/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":174,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"10/22/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":175,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"07/14/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":176,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"01/05/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":177,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"08/20/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":178,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"05/22/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":179,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"01/07/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":180,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"08/24/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":181,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/02/13\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":182,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/10/14\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":183,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/06/06\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":184,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/04/14\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":185,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/04/11\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":186,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/06/24\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":187,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/03/20\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":188,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/08/25\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":189,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/03/15\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":190,\n         \"errors\":[\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023/06/17\",\n               \"reason\":\"Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":191,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-11-31\",\n               \"reason\":\"Date '2023-11-31' is invalid because November has only 30 days\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":192,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-00-15\",\n               \"reason\":\"Date '2023-00-15' is invalid because month '00' is not valid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":193,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-02-29\",\n               \"reason\":\"Date '2023-02-29' is invalid because 2023 is not a leap year\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":194,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-00-15\",\n               \"reason\":\"Date '2023-00-15' is invalid because month '00' is not valid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":195,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-00-15\",\n               \"reason\":\"Date '2023-00-15' is invalid because month '00' is not valid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":196,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-13-01\",\n               \"reason\":\"Date '2023-13-01' is invalid because month '13' is not valid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":197,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-13-01\",\n               \"reason\":\"Date '2023-13-01' is invalid because month '13' is not valid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":198,\n         \"errors\":[\n            {\n               \"category\":\"invalid_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-02-29\",\n               \"reason\":\"Date '2023-02-29' is invalid because 2023 is not a leap year\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":199,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":200,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":201,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":202,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":203,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":204,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":205,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":206,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":207,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":208,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":209,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":210,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":211,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":212,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":213,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"NULL\",\n               \"reason\":\"Purchase_Amt is missing (NULL value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":214,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Age\",\n               \"value\":\"\",\n               \"reason\":\"Age is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":215,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Age\",\n               \"value\":\"\",\n               \"reason\":\"Age is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":216,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Age\",\n               \"value\":\"\",\n               \"reason\":\"Age is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":217,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Age\",\n               \"value\":\"\",\n               \"reason\":\"Age is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":218,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Age\",\n               \"value\":\"\",\n               \"reason\":\"Age is missing (empty value)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":219,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-8.36\",\n               \"reason\":\"Purchase amount is negative (-8.36)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":220,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-95.21\",\n               \"reason\":\"Purchase amount is negative (-95.21)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":221,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-87.95\",\n               \"reason\":\"Purchase amount is negative (-87.95)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":222,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-184.94\",\n               \"reason\":\"Purchase amount is negative (-184.94)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":223,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-109.55\",\n               \"reason\":\"Purchase amount is negative (-109.55)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":224,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-34.16\",\n               \"reason\":\"Purchase amount is negative (-34.16)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":225,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-15.93\",\n               \"reason\":\"Purchase amount is negative (-15.93)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":226,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-156.48\",\n               \"reason\":\"Purchase amount is negative (-156.48)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":227,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-121.41\",\n               \"reason\":\"Purchase amount is negative (-121.41)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":228,\n         \"errors\":[\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-80.21\",\n               \"reason\":\"Purchase amount is negative (-80.21)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":229,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"1,964\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":230,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"4,703\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":231,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"8,301\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":232,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"2,939\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":233,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"1,706\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":234,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"974864.58\",\n               \"reason\":\"Purchase amount exceeds $50,000\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":235,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"\\\"\\\"\\\"2,490\\\"\\\"\\\"\",\n               \"reason\":\"Purchase amount contains non-numeric characters (quotes, commas)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":236,\n         \"errors\":[\n            {\n               \"category\":\"unrealistic_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"940610.50\",\n               \"reason\":\"Purchase amount exceeds $50,000\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":237,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-6\",\n               \"reason\":\"Age is negative (-6)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":238,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"198\",\n               \"reason\":\"Age exceeds the maximum realistic age (198 > 120)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":239,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"194\",\n               \"reason\":\"Age exceeds the maximum realistic age (194 > 120)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":240,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-3\",\n               \"reason\":\"Age is negative (-3)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":241,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-5\",\n               \"reason\":\"Age is negative (-5)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":242,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-3\",\n               \"reason\":\"Age is negative (-3)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":243,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"194\",\n               \"reason\":\"Age exceeds the maximum realistic age (194 > 120)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":244,\n         \"errors\":[\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-4\",\n               \"reason\":\"Age is negative (-4)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":245,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"canceled\",\n               \"reason\":\"Status 'canceled' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":246,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"PENDING\",\n               \"reason\":\"Status 'PENDING' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":247,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"pEnDiNg\",\n               \"reason\":\"Status 'pEnDiNg' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":248,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"pEnDiNg\",\n               \"reason\":\"Status 'pEnDiNg' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":249,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"aCtiVe\",\n               \"reason\":\"Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":250,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"pending\",\n               \"reason\":\"Status 'pending' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":251,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"PENDING\",\n               \"reason\":\"Status 'PENDING' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":252,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"cancelled\",\n               \"reason\":\"Status 'cancelled' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":253,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"aCtiVe\",\n               \"reason\":\"Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":254,\n         \"errors\":[\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"active\",\n               \"reason\":\"Status 'active' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":255,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"jane@mailhost\",\n               \"reason\":\"Email domain 'mailhost' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"12/07/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":256,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-154.63\",\n               \"reason\":\"Purchase amount is negative (-154.63)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"status_inconsistency\",\n               \"field\":\"Status\",\n               \"value\":\"aCtiVe\",\n               \"reason\":\"Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":257,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-5\",\n               \"reason\":\"Age is negative (-5)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"05/18/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":258,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"heidi@server\",\n               \"reason\":\"Email domain 'server' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-184.88\",\n               \"reason\":\"Purchase amount is negative (-184.88)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":259,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"nora.clark@domain\",\n               \"reason\":\"Email domain 'domain' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"09/09/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":260,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"alice@gmail.com\",\n               \"reason\":\"Email domain 'gmail.com' is valid but lacks a name\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"02/14/2023\",\n               \"reason\":\"Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":261,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"invalid_email\",\n               \"field\":\"Email\",\n               \"value\":\"john.phillips@gmail\",\n               \"reason\":\"Email domain 'gmail' lacks a top-level domain (no dot after @)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"-181.68\",\n               \"reason\":\"Purchase amount is negative (-181.68)\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":262,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-6\",\n               \"reason\":\"Age is negative (-6)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"inconsistent_date\",\n               \"field\":\"Signup_Date\",\n               \"value\":\"2023-03-14\",\n               \"reason\":\"Date is in YYYY-MM-DD format but invalid\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":263,\n         \"errors\":[\n            {\n               \"category\":\"missing_value\",\n               \"field\":\"Name\",\n               \"value\":\"\",\n               \"reason\":\"Name is missing (empty value)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"age_outlier\",\n               \"field\":\"Age\",\n               \"value\":\"-9\",\n               \"reason\":\"Age is negative (-9)\",\n               \"confidence\":\"high\"\n            },\n            {\n               \"category\":\"negative_amount\",\n               \"field\":\"Purchase_Amt\",\n               \"value\":\"684.25\",\n               \"reason\":\"Purchase amount is negative\",\n               \"confidence\":\"high\"\n            }\n         ]\n      }\n   ],\n   \"guardrail_triggered\":null\n}",
+  "row_errors": [
+    {
+      "row_index": 141,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "julia@domain",
+          "reason": "Email domain 'domain' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 142,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "michael.nelson@server",
+          "reason": "Email domain 'server' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 143,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quinn@server",
+          "reason": "Email domain 'server' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 144,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda@mailhost",
+          "reason": "Email domain 'mailhost' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 145,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quentin@gmail",
+          "reason": "Email domain 'gmail' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 146,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "kyle.mitchell@domain",
+          "reason": "Email domain 'domain' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 147,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "linda.clark@gmail",
+          "reason": "Email domain 'gmail' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 148,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "rachel@domain",
+          "reason": "Email domain 'domain' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 149,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "kevin.wilson@wong",
+          "reason": "Email domain 'wong' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 150,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "quentin.allen@wong",
+          "reason": "Email domain 'wong' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 151,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email domain 'server' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 152,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "jackie.scott@mailhost",
+          "reason": "Email domain 'mailhost' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 153,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "samuel.white@domain",
+          "reason": "Email domain 'domain' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 155,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda.wright@gmail",
+          "reason": "Email domain 'gmail' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 156,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "donna.greenwork.com",
+          "reason": "Email is missing '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 157,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "victoria.martinezwork.com",
+          "reason": "Email is missing '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 158,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "brenda.daviscompany.net",
+          "reason": "Email is missing '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 159,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 160,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "hannahgmail.com",
+          "reason": "Email is missing '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 161,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 162,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 163,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 164,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 165,
+      "errors": [
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "hannahexample.org",
+          "reason": "Email is missing '@' character",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 166,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/15/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 167,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "06/14/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 168,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/27/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 169,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/18/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 170,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/02/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 171,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "03/22/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 172,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/08/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 173,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/06/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 174,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "10/22/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 175,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "07/14/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 176,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/05/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 177,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "08/20/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 178,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/22/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 179,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "01/07/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 180,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "08/24/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 181,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/02/13",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 182,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/10/14",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 183,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/06",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 184,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/04/14",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 185,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/04/11",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 186,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/24",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 187,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/03/20",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 188,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/08/25",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 189,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/03/15",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 190,
+      "errors": [
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023/06/17",
+          "reason": "Date is in YYYY/MM/DD format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 191,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-11-31",
+          "reason": "Date '2023-11-31' is invalid because November has only 30 days",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 192,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is invalid because month '00' is not valid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 193,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date '2023-02-29' is invalid because 2023 is not a leap year",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 194,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is invalid because month '00' is not valid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 195,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date '2023-00-15' is invalid because month '00' is not valid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 196,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date '2023-13-01' is invalid because month '13' is not valid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 197,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date '2023-13-01' is invalid because month '13' is not valid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 198,
+      "errors": [
+        {
+          "category": "invalid_date",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date '2023-02-29' is invalid because 2023 is not a leap year",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 199,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 200,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 201,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 202,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 203,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 204,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 205,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 206,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 207,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 208,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 209,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 210,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 211,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 212,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 213,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Purchase_Amt",
+          "value": "NULL",
+          "reason": "Purchase_Amt is missing (NULL value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 214,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 215,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 216,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 217,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 218,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Age",
+          "value": "",
+          "reason": "Age is missing (empty value)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 219,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-8.36",
+          "reason": "Purchase amount is negative (-8.36)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 220,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-95.21",
+          "reason": "Purchase amount is negative (-95.21)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 221,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-87.95",
+          "reason": "Purchase amount is negative (-87.95)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 222,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-184.94",
+          "reason": "Purchase amount is negative (-184.94)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 223,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-109.55",
+          "reason": "Purchase amount is negative (-109.55)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 224,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-34.16",
+          "reason": "Purchase amount is negative (-34.16)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 225,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-15.93",
+          "reason": "Purchase amount is negative (-15.93)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 226,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-156.48",
+          "reason": "Purchase amount is negative (-156.48)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 227,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-121.41",
+          "reason": "Purchase amount is negative (-121.41)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 228,
+      "errors": [
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-80.21",
+          "reason": "Purchase amount is negative (-80.21)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 229,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"1,964\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 230,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"4,703\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 231,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"8,301\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 232,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"2,939\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 233,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"1,706\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 234,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "974864.58",
+          "reason": "Purchase amount exceeds $50,000",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 235,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"2,490\"\"\"",
+          "reason": "Purchase amount contains non-numeric characters (quotes, commas)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 236,
+      "errors": [
+        {
+          "category": "unrealistic_amount",
+          "field": "Purchase_Amt",
+          "value": "940610.50",
+          "reason": "Purchase amount exceeds $50,000",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 237,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age is negative (-6)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 238,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "198",
+          "reason": "Age exceeds the maximum realistic age (198 > 120)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 239,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age exceeds the maximum realistic age (194 > 120)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 240,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age is negative (-3)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 241,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age is negative (-5)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 242,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age is negative (-3)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 243,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age exceeds the maximum realistic age (194 > 120)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 244,
+      "errors": [
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-4",
+          "reason": "Age is negative (-4)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 245,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "canceled",
+          "reason": "Status 'canceled' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 246,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 247,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 248,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status 'pEnDiNg' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 249,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 250,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status 'pending' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 251,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status 'PENDING' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 252,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "cancelled",
+          "reason": "Status 'cancelled' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 253,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 254,
+      "errors": [
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "active",
+          "reason": "Status 'active' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 255,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "jane@mailhost",
+          "reason": "Email domain 'mailhost' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "12/07/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 256,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-154.63",
+          "reason": "Purchase amount is negative (-154.63)",
+          "confidence": "high"
+        },
+        {
+          "category": "status_inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status 'aCtiVe' is not in canonical form; expected 'Active', 'Pending', or 'Cancelled'",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 257,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age is negative (-5)",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "05/18/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 258,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email domain 'server' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-184.88",
+          "reason": "Purchase amount is negative (-184.88)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 259,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "nora.clark@domain",
+          "reason": "Email domain 'domain' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "09/09/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 260,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "alice@gmail.com",
+          "reason": "Email domain 'gmail.com' is valid but lacks a name",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "02/14/2023",
+          "reason": "Date is in MM/DD/YYYY format instead of canonical YYYY-MM-DD",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 261,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "invalid_email",
+          "field": "Email",
+          "value": "john.phillips@gmail",
+          "reason": "Email domain 'gmail' lacks a top-level domain (no dot after @)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "-181.68",
+          "reason": "Purchase amount is negative (-181.68)",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 262,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age is negative (-6)",
+          "confidence": "high"
+        },
+        {
+          "category": "inconsistent_date",
+          "field": "Signup_Date",
+          "value": "2023-03-14",
+          "reason": "Date is in YYYY-MM-DD format but invalid",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 263,
+      "errors": [
+        {
+          "category": "missing_value",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing (empty value)",
+          "confidence": "high"
+        },
+        {
+          "category": "age_outlier",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age is negative (-9)",
+          "confidence": "high"
+        },
+        {
+          "category": "negative_amount",
+          "field": "Purchase_Amt",
+          "value": "684.25",
+          "reason": "Purchase amount is negative",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

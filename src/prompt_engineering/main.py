@@ -5,10 +5,14 @@ import json
 import logging
 import re
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 import typer
 from prompt_engineering.config import PACKAGE_ROOT, VERSION_MAP, setup_logging
+from prompt_engineering.util.guardrails import (
+    merge_guardrails,
+    sanitize_response,
+)
 from rich.console import Console
 
 logger = logging.getLogger(__name__)
@@ -85,13 +89,30 @@ def run(
         None, "--model",
         help="LLM config name (uses config/<name>.yaml). Overrides MODEL_NAME from env.",
     ),
+    evaluator: str = typer.Option(
+        "llm-judge",
+        "--evaluator",
+        "-e",
+        help=(
+            "Evaluation backend: 'llm-judge' (default, uses eval/evaluate.md) "
+            "or 'deepeval' (DeepEval metrics; requires `uv sync --extra deepeval`)."
+        ),
+    ),
     verbose: bool = typer.Option(
         False, "--verbose", "-V", help="Enable debug logging.",
     ),
 ) -> None:
     """Run a prompt version, save the response and score it against golden data."""
     setup_logging("DEBUG" if verbose else "INFO")
-    asyncio.run(_run(prompt_version, dataset, output, golden, include, model))
+    if evaluator not in ("llm-judge", "deepeval"):
+        console.print(
+            f"[red]Unknown evaluator: {evaluator!r}. "
+            "Use 'llm-judge' or 'deepeval'.[/red]"
+        )
+        raise typer.Exit(1)
+    asyncio.run(
+        _run(prompt_version, dataset, output, golden, include, model, evaluator)
+    )
 
 _ALLOWED_ERROR_KEYS = {"field", "value", "reason", "category", "confidence"}
 
@@ -159,6 +180,7 @@ async def _run(
     golden_path: str | None,
     include_path: str | None,
     model_config_name: Optional[str] = None,
+    evaluator_name: str = "llm-judge",
 ) -> None:
     from prompt_engineering.eval.evaluation import PromptEvaluator
 
@@ -174,19 +196,35 @@ async def _run(
     )
 
     client, _, llm_config = _build_client(model_config_name)
-    evaluator = PromptEvaluator(
-        client, dataset_path=dataset_path, golden_path=golden_path,
-    )
+    logger.info("Using evaluator: %s", evaluator_name)
+    try:
+        evaluator = PromptEvaluator(
+            client,
+            dataset_path=dataset_path,
+            golden_path=golden_path,
+            evaluator=evaluator_name,  # type: ignore[arg-type]
+        )
+    except RuntimeError as exc:
+        console.print(f"[red]{exc}[/red]")
+        await client.close()
+        raise typer.Exit(1) from exc
 
     report = await evaluator.run_single(
         prompt_version, run_judge=True, prior_findings=prior_findings,
     )
 
     row_errors: list = []
+    reported_guardrail: Any = None
     if report.parsed_ok and report.parsed_response:
-        raw = report.parsed_response.get("row_errors")
+        sanitized, detected = sanitize_response(report.parsed_response)
+        raw = sanitized.get("row_errors")
         if isinstance(raw, list):
             row_errors = list(raw)
+        reported_guardrail = merge_guardrails(
+            sanitized.get("guardrail_triggered"), detected
+        )
+        if reported_guardrail:
+            logger.info("Guardrail triggered on response: %s", reported_guardrail)
     if output_path:
         save_path = Path(output_path)
         run_dir = save_path.parent
@@ -202,6 +240,8 @@ async def _run(
         "raw_response": report.raw_response,
         "row_errors": row_errors,
     }
+    if reported_guardrail:
+        save_payload["guardrail_triggered"] = reported_guardrail
     save_path.write_text(json.dumps(save_payload, indent=2), encoding="utf-8")
     _write_eval_artifacts(run_dir, prompt_version, report, evaluator)
 

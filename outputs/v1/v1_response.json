@@ -1,0 +1,1494 @@
+{
+  "prompt_version": "v1",
+  "model": "gpt-4",
+  "latency_ms": 39226.2,
+  "raw_response": "{\n  \"row_errors\": [\n    {\n      \"row_index\": 141,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"julia@domain\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 142,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"michael.nelson@server\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 143,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"quinn@server\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 144,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"brenda@mailhost\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 145,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"quentin@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 146,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"kyle.mitchell@domain\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 147,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"linda.clark@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 148,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"rachel@domain\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 149,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"85\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"kevin.wilson@wong\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 150,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"quentin.allen@wong\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 151,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"heidi@server\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 152,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"jackie.scott@mailhost\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 153,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"samuel.white@domain\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 154,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"bob@wong\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 155,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"brenda.wright@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 156,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"donna.greenwork.com\",\n          \"reason\": \"Email is missing '@' symbol.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 157,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"victoria.martinezwork.com\",\n          \"reason\": \"Email is missing '@' symbol.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 158,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"brenda.daviscompany.net\",\n          \"reason\": \"Email is missing '@' symbol.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 159,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Email\",\n          \"value\": \"\",\n          \"reason\": \"Email is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 160,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"hannahgmail.com\",\n          \"reason\": \"Email is missing '@' symbol.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 161,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Email\",\n          \"value\": \"\",\n          \"reason\": \"Email is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 162,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Email\",\n          \"value\": \"\",\n          \"reason\": \"Email is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 163,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Email\",\n          \"value\": \"\",\n          \"reason\": \"Email is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 164,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Email\",\n          \"value\": \"\",\n          \"reason\": \"Email is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 165,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"hannahexample.org\",\n          \"reason\": \"Email is missing '@' symbol.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 166,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"07/15/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 167,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"06/14/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 168,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"02/27/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 169,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"10/18/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 170,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"12/02/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 181,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023/02/13\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 182,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023/10/14\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 191,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-11-31\",\n          \"reason\": \"Date is invalid; November has only 30 days.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 192,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-00-15\",\n          \"reason\": \"Date is invalid; month cannot be 0.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 193,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-02-29\",\n          \"reason\": \"Date is invalid; 2023 is not a leap year.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 194,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-00-15\",\n          \"reason\": \"Date is invalid; month cannot be 0.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 195,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-00-15\",\n          \"reason\": \"Date is invalid; month cannot be 0.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 196,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-13-01\",\n          \"reason\": \"Date is invalid; month cannot exceed 12.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 197,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-13-01\",\n          \"reason\": \"Date is invalid; month cannot exceed 12.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 198,\n      \"errors\": [\n        {\n          \"category\": \"Invalid Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-02-29\",\n          \"reason\": \"Date is invalid; 2023 is not a leap year.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 219,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-8.36\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 220,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-95.21\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 221,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-87.95\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 222,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-184.94\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 223,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-109.55\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 224,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-34.16\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 225,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-15.93\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 226,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-156.48\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 227,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-121.41\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 228,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-80.21\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 229,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"1,964\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 230,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"4,703\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 231,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"8,301\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 232,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"2,939\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 233,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"1,706\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 234,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"974864.58\",\n          \"reason\": \"Purchase amount exceeds $50,000.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 235,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"\\\"\\\"\\\"2,490\\\"\\\"\\\"\",\n          \"reason\": \"Purchase amount contains invalid characters.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 236,\n      \"errors\": [\n        {\n          \"category\": \"Unrealistic Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"940610.50\",\n          \"reason\": \"Purchase amount exceeds $50,000.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 237,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-6\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 238,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"198\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 239,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"194\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 240,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-3\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 241,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-5\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 242,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-3\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 243,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"194\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 244,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-4\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 245,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"canceled\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 246,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"PENDING\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 247,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"pEnDiNg\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 248,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"pEnDiNg\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 249,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"aCtiVe\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 250,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"pending\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 251,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"PENDING\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 252,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"cancelled\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 253,\n      \"errors\": [\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"aCtiVe\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 254,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"121\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        },\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"active\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 255,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"jane@mailhost\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"12/07/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 256,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-154.63\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        },\n        {\n          \"category\": \"Status Inconsistency\",\n          \"field\": \"Status\",\n          \"value\": \"aCtiVe\",\n          \"reason\": \"Status value is inconsistent with expected values.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 257,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-5\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        },\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"05/18/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 258,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"heidi@server\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-184.88\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 259,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"nora.clark@domain\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"09/09/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 260,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"alice@gmail.com\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"02/14/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 261,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"john.phillips@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-181.68\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 262,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-6\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 263,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-9\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        },\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"06/10/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 264,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"tina.thomas@company.net\",\n          \"reason\": \"Email is missing a valid domain.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-26.06\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 265,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"121\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-52.90\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 266,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"nina.baker@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 267,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-44.61\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 268,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"07/23/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 269,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        },\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"felicity.baker@work.com\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 270,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-2\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 271,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"yuri.nelson@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 272,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-4\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 273,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 274,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-38.51\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 275,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"127\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 276,\n      \"errors\": [\n        {\n          \"category\": \"Missing Values\",\n          \"field\": \"Name\",\n          \"value\": \"\",\n          \"reason\": \"Name is missing.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 277,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"127\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 278,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-171.65\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 279,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-66.72\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 280,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"diana.baker@mailhost\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 281,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"198\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 282,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-103.05\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 283,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"06/07/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 284,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"164\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 285,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"08/06/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 286,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"150\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 287,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-2\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 288,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"01/17/2023\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 289,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"149\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 290,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"quinn.davis@gmail\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 291,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-137.20\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 292,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"julia@gmail.com\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 293,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"164\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 294,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"169\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 295,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-9\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 296,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"-9\",\n          \"reason\": \"Age is negative, which is unrealistic.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 297,\n      \"errors\": [\n        {\n          \"category\": \"Inconsistent Dates\",\n          \"field\": \"Signup_Date\",\n          \"value\": \"2023-07-01\",\n          \"reason\": \"Date format is inconsistent; expected YYYY-MM-DD.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 298,\n      \"errors\": [\n        {\n          \"category\": \"Bad Emails\",\n          \"field\": \"Email\",\n          \"value\": \"ian@wong\",\n          \"reason\": \"Email is missing a valid domain.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 299,\n      \"errors\": [\n        {\n          \"category\": \"Negative Amounts\",\n          \"field\": \"Purchase_Amt\",\n          \"value\": \"-1416.61\",\n          \"reason\": \"Purchase amount cannot be negative.\"\n        }\n      ]\n    },\n    {\n      \"row_index\": 300,\n      \"errors\": [\n        {\n          \"category\": \"Age Outliers\",\n          \"field\": \"Age\",\n          \"value\": \"146\",\n          \"reason\": \"Age exceeds the realistic maximum of 120.\"\n        }\n      ]\n    }\n  ]\n}",
+  "row_errors": [
+    {
+      "row_index": 141,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "julia@domain",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 142,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "michael.nelson@server",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 143,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "quinn@server",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 144,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "brenda@mailhost",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 145,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "quentin@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 146,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "kyle.mitchell@domain",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 147,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "linda.clark@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 148,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "rachel@domain",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 149,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "85",
+          "reason": "Age exceeds the realistic maximum of 120."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "kevin.wilson@wong",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 150,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "quentin.allen@wong",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 151,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 152,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "jackie.scott@mailhost",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 153,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "samuel.white@domain",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 154,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "bob@wong",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 155,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "brenda.wright@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 156,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "donna.greenwork.com",
+          "reason": "Email is missing '@' symbol."
+        }
+      ]
+    },
+    {
+      "row_index": 157,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "victoria.martinezwork.com",
+          "reason": "Email is missing '@' symbol."
+        }
+      ]
+    },
+    {
+      "row_index": 158,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "brenda.daviscompany.net",
+          "reason": "Email is missing '@' symbol."
+        }
+      ]
+    },
+    {
+      "row_index": 159,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 160,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "hannahgmail.com",
+          "reason": "Email is missing '@' symbol."
+        }
+      ]
+    },
+    {
+      "row_index": 161,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 162,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 163,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 164,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Email",
+          "value": "",
+          "reason": "Email is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 165,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "hannahexample.org",
+          "reason": "Email is missing '@' symbol."
+        }
+      ]
+    },
+    {
+      "row_index": 166,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "07/15/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 167,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "06/14/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 168,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "02/27/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 169,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "10/18/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 170,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "12/02/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 181,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "2023/02/13",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 182,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "2023/10/14",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 191,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-11-31",
+          "reason": "Date is invalid; November has only 30 days."
+        }
+      ]
+    },
+    {
+      "row_index": 192,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date is invalid; month cannot be 0."
+        }
+      ]
+    },
+    {
+      "row_index": 193,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date is invalid; 2023 is not a leap year."
+        }
+      ]
+    },
+    {
+      "row_index": 194,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date is invalid; month cannot be 0."
+        }
+      ]
+    },
+    {
+      "row_index": 195,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-00-15",
+          "reason": "Date is invalid; month cannot be 0."
+        }
+      ]
+    },
+    {
+      "row_index": 196,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date is invalid; month cannot exceed 12."
+        }
+      ]
+    },
+    {
+      "row_index": 197,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-13-01",
+          "reason": "Date is invalid; month cannot exceed 12."
+        }
+      ]
+    },
+    {
+      "row_index": 198,
+      "errors": [
+        {
+          "category": "Invalid Dates",
+          "field": "Signup_Date",
+          "value": "2023-02-29",
+          "reason": "Date is invalid; 2023 is not a leap year."
+        }
+      ]
+    },
+    {
+      "row_index": 219,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-8.36",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 220,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-95.21",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 221,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-87.95",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 222,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-184.94",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 223,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-109.55",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 224,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-34.16",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 225,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-15.93",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 226,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-156.48",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 227,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-121.41",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 228,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-80.21",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 229,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"1,964\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 230,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"4,703\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 231,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"8,301\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 232,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"2,939\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 233,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"1,706\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 234,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "974864.58",
+          "reason": "Purchase amount exceeds $50,000."
+        }
+      ]
+    },
+    {
+      "row_index": 235,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "\"\"\"2,490\"\"\"",
+          "reason": "Purchase amount contains invalid characters."
+        }
+      ]
+    },
+    {
+      "row_index": 236,
+      "errors": [
+        {
+          "category": "Unrealistic Amounts",
+          "field": "Purchase_Amt",
+          "value": "940610.50",
+          "reason": "Purchase amount exceeds $50,000."
+        }
+      ]
+    },
+    {
+      "row_index": 237,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 238,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "198",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 239,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 240,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 241,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 242,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-3",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 243,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "194",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 244,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-4",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 245,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "canceled",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 246,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 247,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 248,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "pEnDiNg",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 249,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 250,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "pending",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 251,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "PENDING",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 252,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "cancelled",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 253,
+      "errors": [
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 254,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "121",
+          "reason": "Age exceeds the realistic maximum of 120."
+        },
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "active",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 255,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "jane@mailhost",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "12/07/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 256,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-154.63",
+          "reason": "Purchase amount cannot be negative."
+        },
+        {
+          "category": "Status Inconsistency",
+          "field": "Status",
+          "value": "aCtiVe",
+          "reason": "Status value is inconsistent with expected values."
+        }
+      ]
+    },
+    {
+      "row_index": 257,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-5",
+          "reason": "Age is negative, which is unrealistic."
+        },
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "05/18/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 258,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "heidi@server",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-184.88",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 259,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "nora.clark@domain",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "09/09/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 260,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "alice@gmail.com",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "02/14/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 261,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "john.phillips@gmail",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-181.68",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 262,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-6",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 263,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age is negative, which is unrealistic."
+        },
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "06/10/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 264,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "tina.thomas@company.net",
+          "reason": "Email is missing a valid domain."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-26.06",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 265,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "121",
+          "reason": "Age exceeds the realistic maximum of 120."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-52.90",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 266,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "nina.baker@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 267,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-44.61",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 268,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "07/23/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 269,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        },
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "felicity.baker@work.com",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 270,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-2",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 271,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "yuri.nelson@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 272,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-4",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 273,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 274,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-38.51",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 275,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "127",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 276,
+      "errors": [
+        {
+          "category": "Missing Values",
+          "field": "Name",
+          "value": "",
+          "reason": "Name is missing."
+        }
+      ]
+    },
+    {
+      "row_index": 277,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "127",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 278,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-171.65",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 279,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-66.72",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 280,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "diana.baker@mailhost",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 281,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "198",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 282,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-103.05",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 283,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "06/07/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 284,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "164",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 285,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "08/06/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 286,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "150",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 287,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-2",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 288,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "01/17/2023",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 289,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "149",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 290,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "quinn.davis@gmail",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 291,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-137.20",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 292,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "julia@gmail.com",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 293,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "164",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 294,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "169",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    },
+    {
+      "row_index": 295,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 296,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "-9",
+          "reason": "Age is negative, which is unrealistic."
+        }
+      ]
+    },
+    {
+      "row_index": 297,
+      "errors": [
+        {
+          "category": "Inconsistent Dates",
+          "field": "Signup_Date",
+          "value": "2023-07-01",
+          "reason": "Date format is inconsistent; expected YYYY-MM-DD."
+        }
+      ]
+    },
+    {
+      "row_index": 298,
+      "errors": [
+        {
+          "category": "Bad Emails",
+          "field": "Email",
+          "value": "ian@wong",
+          "reason": "Email is missing a valid domain."
+        }
+      ]
+    },
+    {
+      "row_index": 299,
+      "errors": [
+        {
+          "category": "Negative Amounts",
+          "field": "Purchase_Amt",
+          "value": "-1416.61",
+          "reason": "Purchase amount cannot be negative."
+        }
+      ]
+    },
+    {
+      "row_index": 300,
+      "errors": [
+        {
+          "category": "Age Outliers",
+          "field": "Age",
+          "value": "146",
+          "reason": "Age exceeds the realistic maximum of 120."
+        }
+      ]
+    }
+  ]
+}

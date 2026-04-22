@@ -13,6 +13,11 @@ dependencies = [
     "rich>=13.9",
 ]
 
+[project.optional-dependencies]
+deepeval = [
+    "deepeval>=2.0",
+]
+
 [project.scripts]
 prompt-engineering = "prompt_engineering.main:app"
 

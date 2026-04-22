@@ -5,7 +5,7 @@ import logging
 import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from prompt_engineering.client.llm_client import LLMClient
 from prompt_engineering.config import VERSION_MAP
@@ -15,6 +15,8 @@ from prompt_engineering.util.prompt_loader import (
     parse_json_response,
     render_prompt,
 )
+
+EvaluatorName = Literal["llm-judge", "deepeval"]
 
 EVALUATION_PROMPT = load_prompt("eval/evaluate.md")
 
@@ -34,11 +36,22 @@ def _json_dumps_for_judge(obj: Any, budget: int, label: str) -> str:
 
 @dataclass
 class JudgeVerdict:
-    """LLM-as-judge output."""
+    """LLM-as-judge output.
+
+    ``evaluator`` marks which backend produced the verdict. ``metrics``
+    is populated only by the DeepEval runner; the hand-rolled judge
+    leaves it empty for backwards compatibility.
+    """
+
     evaluation: str = ""
+    evaluator: EvaluatorName = "llm-judge"
+    metrics: list[dict[str, Any]] | None = None
 
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        payload = asdict(self)
+        if payload.get("metrics") is None:
+            payload.pop("metrics", None)
+        return payload
 
 class LLMJudge:
     def __init__(self, client: LLMClient) -> None:
@@ -95,12 +108,19 @@ class PromptEvaluator:
         *,
         dataset_path: str | None = None,
         golden_path: str | None = None,
+        evaluator: EvaluatorName = "llm-judge",
     ) -> None:
         self._client = client
         self._dataset_csv = load_dataset(dataset_path)
         self._golden_path = golden_path
         self._golden_doc = load_golden(golden_path)
         self._judge = LLMJudge(client)
+        self._evaluator: EvaluatorName = evaluator
+        self._deepeval_runner = None
+        if evaluator == "deepeval":
+            from prompt_engineering.eval.deepeval_runner import DeepEvalRunner
+
+            self._deepeval_runner = DeepEvalRunner(client)
 
     def golden_metadata(self) -> dict[str, Any]:
         """Metadata stored next to LLM eval output."""
@@ -171,8 +191,8 @@ class PromptEvaluator:
                 analysis_json = _truncate_for_judge(
                     resp.content, b, "analysis (unparsed)"
                 )
-                report.judge_verdict = await self._judge.judge(
-                    self._dataset_csv, analysis_json, golden_json
+                report.judge_verdict = await self._evaluate(
+                    analysis_json, golden_json
                 )
             return report
 
@@ -181,8 +201,25 @@ class PromptEvaluator:
 
         if run_judge:
             analysis_json = _json_dumps_for_judge(parsed, b, "analysis JSON")
-            report.judge_verdict = await self._judge.judge(
-                self._dataset_csv, analysis_json, golden_json
+            report.judge_verdict = await self._evaluate(
+                analysis_json, golden_json
             )
 
         return report
+
+    async def _evaluate(
+        self, analysis_json: str, golden_json: str
+    ) -> JudgeVerdict:
+        """Dispatch to the configured evaluation backend."""
+        if self._evaluator == "deepeval" and self._deepeval_runner is not None:
+            verdict = await self._deepeval_runner.evaluate(
+                self._dataset_csv, analysis_json, golden_json
+            )
+            return JudgeVerdict(
+                evaluation=verdict.evaluation,
+                evaluator="deepeval",
+                metrics=[m.to_dict() for m in verdict.metrics],
+            )
+        return await self._judge.judge(
+            self._dataset_csv, analysis_json, golden_json
+        )

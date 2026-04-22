@@ -1,0 +1,24 @@
+{
+  "prompt_version": "v2",
+  "golden_data_source": "golden_data.json",
+  "total_rows": 300,
+  "golden_error_row_count": 180,
+  "evaluation": "Overall DeepEval score 0.10 (threshold 0.7). Breakdown: GEval.ErrorCoverage=0.20; GoldenRecall.F1=0.00.",
+  "evaluator": "deepeval",
+  "metrics": [
+    {
+      "name": "GEval.ErrorCoverage",
+      "score": 0.2,
+      "threshold": 0.7,
+      "passed": false,
+      "reason": "The Actual Output is valid JSON, but it contains false positives for row_index < 121, which are clean by design. Additionally, it fails to cover rows 121-300 comprehensively, missing many expected error categories and rows. The error categories in overlapping rows do not align with the Expected Output."
+    },
+    {
+      "name": "GoldenRecall.F1",
+      "score": 0.0,
+      "threshold": 0.7,
+      "passed": false,
+      "reason": "precision=0.000, recall=0.000, tp=0, fp=3, fn=180"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "prompt_version": "v2",
+  "model": "gpt-4",
+  "latency_ms": 2966.4,
+  "raw_response": "{\n   \"row_errors\":[\n      {\n         \"row_index\":1,\n         \"errors\":[\n            {\n               \"category\":\"duplicate\",\n               \"field\":\"ID\",\n               \"value\":\"1\",\n               \"reason\":\"Duplicate fingerprint matches another row.\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":2,\n         \"errors\":[\n            {\n               \"category\":\"duplicate\",\n               \"field\":\"ID\",\n               \"value\":\"2\",\n               \"reason\":\"Duplicate fingerprint matches another row.\",\n               \"confidence\":\"high\"\n            }\n         ]\n      },\n      {\n         \"row_index\":3,\n         \"errors\":[\n            {\n               \"category\":\"duplicate\",\n               \"field\":\"ID\",\n               \"value\":\"3\",\n               \"reason\":\"Duplicate fingerprint matches another row.\",\n               \"confidence\":\"high\"\n            }\n         ]\n      }\n   ],\n   \"guardrail_triggered\":\"malformed_input\",\n   \"reason\":\"Dataset exceeds processing limits.\"\n}",
+  "row_errors": [
+    {
+      "row_index": 1,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "1",
+          "reason": "Duplicate fingerprint matches another row.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 2,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "2",
+          "reason": "Duplicate fingerprint matches another row.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "row_index": 3,
+      "errors": [
+        {
+          "category": "duplicate",
+          "field": "ID",
+          "value": "3",
+          "reason": "Duplicate fingerprint matches another row.",
+          "confidence": "high"
+        }
+      ]
+    }
+  ],
+  "guardrail_triggered": "malformed_input"
+}
